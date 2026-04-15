@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #020617;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-img img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.btn {
+    background: #3b82f6;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+.skills span {
+    background: #1e293b;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Projects */
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 10px 0;
+}
