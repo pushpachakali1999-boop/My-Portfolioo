@@ -1,17 +1,28 @@
+<!-- index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pushpalatha Chakali | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pushpalatha | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-<!-- Navbar -->
 <header>
     <h2>Pushpalatha</h2>
-    <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    
+
+    
+    
+}
+
+}
+    
+    <nav id="navLinks">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -20,29 +31,26 @@
     </nav>
 </header>
 
-<!-- Hero Section -->
+
 <section id="home" class="hero">
     <div class="hero-text">
-        <h1>Hi, I'm Pushpalatha Chakali</h1>
-        <h3>Front-End Developer</h3>
-        <p>Passionate developer with experience in building web applications and working with modern technologies.</p>
-        <a href="#contact" class="btn">Hire Me</a>
+        <h1>Hi, I'm Pushpalatha</h1>
+        <h3>Frontend Developer</h3>
+        <p>I design and build modern, responsive websites with great user experience.</p>
+    
+         <a href="/Pushpa Resume.pdf"download class="btn btn-light m-2">Download Resume</a>
     </div>
     <div class="hero-img">
-        <img src="pushpa_photo.jpeg.jpeg" alt="Pushpalatha" width="250">
+        <img src="pushpa_photo.jpeg.jpeg" alt="profile">
+       
     </div>
 </section>
 
-<!-- About -->
 <section id="about">
     <h2>About Me</h2>
-    <p>
-        Seeking a responsible career position which will utilize my technical skills and knowledge and contribute to company growth.
-        I have experience working at Dell Technologies as a Developer, focusing on chatbot development, AI/ML, and frontend technologies.
-    </p>
+    <p>Frontend developer with experience in modern web technologies, AI/ML and chatbot development.</p>
 </section>
 
-<!-- Skills -->
 <section id="skills">
     <h2>Skills</h2>
     <div class="skills">
@@ -56,34 +64,138 @@
     </div>
 </section>
 
-<!-- Projects -->
 <section id="projects">
     <h2>Projects</h2>
-
-    <div class="project-card">
-        <h3>Attrium</h3>
-        <p>Online communication platform for users to interact with friends using a graphical interface.</p>
+    <div class="projects">
+        <div class="project-card">
+            <h3>Attrium</h3>
+            <p>Communication platform with graphical interface, open attrium is online software application which provides excellent communication between the people.</p>
+        </div>
+        <div class="project-card">
+            <h3>Bharathanari</h3>
+            <p>Global marketplace platform for merchants, it is a portal which allows merchants in developing counters advertise and sell theit goods.</p>
+        </div>
     </div>
-
-    <div class="project-card">
-        <h3>Bharathanari</h3>
-        <p>Portal connecting merchants in developing countries with global markets.</p>
-    </div>
-
 </section>
 
-<!-- Contact -->
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: pushpachakali1999@gmail.com</p>
-    <p>Phone: 8309986425</p>
-    <p>Location: Hyderabad</p>
+    <div class="contact-card
+        <h2>Contact Me</h2>
 
-    <a href="https://in.linkedin.com/in/pushpalatha-chakali-939853228" target="_blank">LinkedIn</a>
+         <p>  <a href="mailto:pushpachakali1999@gmail.com">📧 pushpachakali1999@gmail.com</a></p>
+
+        <p>📱 8309986425</p>
+
+        <p>
+            🔗 <a href="https://in.linkedin.com" target="_blank">
+                LinkedIn Profile
+            </a>
+        </p>
+
+        
+
+        <p id="msg"></p>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Pushpalatha Chakali</p>
+    <p>© 2026 Pushpalatha</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pushpalatha | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h2>Pushpalatha</h2>
+
+    <!-- Hamburger -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm Pushpalatha</h1>
+        <h3>Frontend Developer</h3>
+        <p>I design modern responsive websites.</p>
+
+        <a href="/Pushpa Resume.pdf" download class="btn">Download Resume</a>
+    </div>
+
+    <div class="hero-img">
+        <img src="pushpa_photo.jpeg.jpeg" alt="profile">
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Frontend developer with modern web skills.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Angular</span>
+        <span>Node.js</span>
+        <span>Python</span>
+        <span>SQL</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <h3>Attrium</h3>
+            <p>Communication platform with graphical interface.</p>
+        </div>
+        <div class="project-card">
+            <h3>Bharathanari</h3>
+            <p>Marketplace platform for merchants.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-card">
+        <h2>Contact Me</h2>
+
+        <p><a href="mailto:pushpachakali1999@gmail.com">📧 Email</a></p>
+        <p>📱 8309986425</p>
+
+        <p>
+            <a href="https://in.linkedin.com" target="_blank">LinkedIn</a>
+        </p>
+
+        <p id="msg"></p>
+    </div> 
+</section>
+
+<footer>
+    <p>© 2026 Pushpalatha</p>
 </footer>
 
 <script src="script.js"></script>
